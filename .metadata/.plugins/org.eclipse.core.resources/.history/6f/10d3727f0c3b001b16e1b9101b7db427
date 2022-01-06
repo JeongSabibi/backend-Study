@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class RockScissorsPaper {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		int userNum;
+		int compNum;
+		
+		while(true) {
+			System.out.print("가위(1), 바위(2), 보(3) 중 하나 입력>>");
+			userNum = in.nextInt();
+			compNum = (int)Math.round(1 + Math.random() * 2);
+			System.out.print("컴퓨터 결과>>"+compNum);
+			
+			if (userNum == compNum) {
+				System.out.println("비겼습니다.");
+			}
+			
+			else if (userNum == 1) {
+				if (compNum == 2) {
+					System.out.println("컴퓨터가 이겼습니다.");
+				}
+				else if (compNum == 3) {
+					System.out.println("사용자가 이겼습니다.");
+				}
+			}
+			
+			else if (userNum == 2) {
+				if (compNum == 1) {
+					System.out.println("사용자가 이겼습니다.");
+				}
+				else if (compNum == 3) {
+					System.out.println("컴퓨터가 이겼습니다.");
+				}
+			}
+			
+			else if (userNum == 3) {
+				if (compNum == 1) {
+					System.out.println("컴퓨터가 이겼습니다.");
+				}
+				else if (compNum == 2) {
+					System.out.println("사용자가 이겼습니다.");
+				}
+			}
+		}
+	}
+}

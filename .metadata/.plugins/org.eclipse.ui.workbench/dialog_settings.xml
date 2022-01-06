@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.FileSystem"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+		<item key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="false"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\user\Desktop"/>
+			<item value="C:\Users\user\Desktop\고급객체지향프로그래밍\실습과제_08"/>
+			<item value="C:\Users\user\Desktop\고급객체지향프로그래밍"/>
+			<item value="C:\Users\user\Desktop\정사비비_201911008\6"/>
+			<item value="C:\Users\user\Desktop\정사비비_201911008\5"/>
+			<item value="C:\Users\user\Desktop\정사비비_201911008\4"/>
+			<item value="C:\Users\user\Desktop\정사비비_201911008\3"/>
+			<item value="C:\Users\user\Desktop\정사비비_201911008\2"/>
+			<item value="C:\Users\user\Desktop\정사비비_201911008\1"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\user\Desktop\7장 과제 파일.zip"/>
+			<item value="C:\Users\user\Desktop\8장 과제 파일.zip"/>
+			<item value="C:\Users\user\Desktop\6장 과제 파일.zip"/>
+			<item value="C:\Users\user\Desktop\일5장 과제 파.zip"/>
+			<item value="C:\Users\user\Desktop\객체지향프로그래밍\4장 과제 파일.zip"/>
+			<item value="C:\Users\user\Desktop\객체지향프로그래밍\3장 과제 파일.zip"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\user\Desktop\정사비비_201911008"/>
+		</list>
+	</section>
+</section>
